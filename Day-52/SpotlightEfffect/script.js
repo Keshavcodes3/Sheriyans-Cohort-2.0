@@ -1,0 +1,4 @@
+document.body.addEventListener('mousemove',function(e){
+    document.body.style.setProperty('--x',e.clientX+'px');
+    document.body.style.setProperty('--y',e.clientY+'px');
+})
