@@ -1,0 +1,78 @@
+@font-face {
+    font-family: Apple;
+    src: url(./sf-pro-icons_regular.woff2);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: Apple;
+    height: 100%;
+    width: 100%;
+}
+
+#nav{
+    height: 10%;
+    background-color: rgb(24,24,24);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    gap: 20px;
+    
+}
+#nav h4{
+    cursor: pointer;
+    color: white;
+    font-weight: 300;
+    transition: all 0.3s ease-in-out;
+}
+#nav h4:hover{
+    color: blue;
+}
+
+
+#center{
+    height: 80%;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    padding: 70px;
+    background-image: url(./HeroImage.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#center h1{
+    color: black;
+    font-size: 60px;
+    font-weight: 800;
+}
+#center h5{
+    color: black;
+    font-weight: 400;
+    font-size: 40px;
+}
+#button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 22px;
+    gap: 30px;
+    padding: 10PX;
+}
+#button #buttons{
+    padding: 13px 20px;
+    border:none;
+    border-radius: 50px;
+    background-color: blue;
+    color: white;
+    font-size: 17PX;
+    font-weight: 600;
+    cursor: pointer;
+}

@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+
+#parent{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+}
+#box2{
+    width: 200px;
+    height: 200px;
+    background-color: skyblue;
+}
+#box3{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+#box4{
+    width: 200px;
+    height: 200px;
+    background-color: lime;
+}
+#box5{
+    width: 200px;
+    height: 200px;
+    background-color: deeppink;
+}
