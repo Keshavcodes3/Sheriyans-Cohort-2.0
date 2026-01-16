@@ -1,0 +1,102 @@
+@font-face {
+    font-family: idk;
+    src: url(./NeueMachina-Regular_DQCmjH1st.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: idk;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: #111; */
+    color: black;
+}
+nav{
+    padding: 10px 30px;
+}
+nav a{
+    color: black;
+    margin-right: 30px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+#main>h1{
+    padding-left: 70px;
+    font-size: 200px;
+    font-weight: 400;
+
+}
+
+#btmleft{
+    width: 350px;
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+}
+
+#btmleft h3{
+    font-size: 30px;
+}
+#btmleft p{
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+#btmleft h4{
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+#bottombar{
+    position: absolute;
+    width: 100%;
+    padding: 30px 70px;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#bottombar>a{
+    color: black;
+    text-decoration: none;
+    font-size: 32px;
+}
+
+#main>img{
+    position: absolute;
+    height: 350px;
+}
+
+#first{
+    height: 450px !important;
+    top: 30%;
+    z-index: 99;
+    left: 57%;
+    border: none;
+    border-radius: 9px;
+}
+
+#second{
+    height: 500px;
+    top: 50%;
+    z-index: 99;
+    left: 40%;
+    border: none;
+    border-radius: 9px;
+}
+#third{
+    top: 10%;
+    z-index: 99;
+    left: 75%;
+    border: none;
+    border-radius: 9px;
+}
