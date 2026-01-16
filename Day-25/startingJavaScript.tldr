@@ -1,0 +1,866 @@
+{
+	"tldrawFileFormatVersion": 1,
+	"schema": {
+		"schemaVersion": 2,
+		"sequences": {
+			"com.tldraw.store": 5,
+			"com.tldraw.asset": 1,
+			"com.tldraw.camera": 1,
+			"com.tldraw.document": 2,
+			"com.tldraw.instance": 25,
+			"com.tldraw.instance_page_state": 5,
+			"com.tldraw.page": 1,
+			"com.tldraw.instance_presence": 6,
+			"com.tldraw.pointer": 1,
+			"com.tldraw.shape": 4,
+			"com.tldraw.asset.bookmark": 2,
+			"com.tldraw.asset.image": 5,
+			"com.tldraw.asset.video": 5,
+			"com.tldraw.shape.group": 0,
+			"com.tldraw.shape.text": 4,
+			"com.tldraw.shape.bookmark": 2,
+			"com.tldraw.shape.draw": 3,
+			"com.tldraw.shape.geo": 11,
+			"com.tldraw.shape.note": 10,
+			"com.tldraw.shape.line": 5,
+			"com.tldraw.shape.frame": 1,
+			"com.tldraw.shape.arrow": 8,
+			"com.tldraw.shape.highlight": 2,
+			"com.tldraw.shape.embed": 4,
+			"com.tldraw.shape.image": 5,
+			"com.tldraw.shape.video": 4,
+			"com.tldraw.binding.arrow": 1
+		}
+	},
+	"records": [
+		{
+			"x": 0,
+			"y": 0,
+			"lastActivityTimestamp": 0,
+			"meta": {},
+			"id": "pointer:pointer",
+			"typeName": "pointer"
+		},
+		{
+			"x": 1119.049338297766,
+			"y": -771.4761500197479,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:AH2WiV9r93qT2BYrN0JHQ",
+			"type": "geo",
+			"props": {
+				"w": 394.07455756092077,
+				"h": 95.72664782300592,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "light-blue",
+				"labelColor": "black",
+				"fill": "solid",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "a1e9iPfV",
+			"typeName": "shape"
+		},
+		{
+			"x": 60.3616037703523,
+			"y": 55.973831261252485,
+			"rotation": 6.265732014659643,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:C7kaAMoNgSYdDbHCDRpkI",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 377.0874938964844,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1.284615972782648,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Do Watch the Lecture or topic "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "repeatedly untill and unless "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "you understand that topic "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "completely!!!! "
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:J068-XWNMzPoJ8onxpG_O",
+			"index": "a2RQLKIV",
+			"typeName": "shape"
+		},
+		{
+			"x": 1138.0357208792918,
+			"y": -375.7019791218523,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:J068-XWNMzPoJ8onxpG_O",
+			"type": "frame",
+			"props": {
+				"w": 1316.0990318693946,
+				"h": 596.3476682927958,
+				"name": "Failures",
+				"color": "black"
+			},
+			"parentId": "page:page",
+			"index": "a587Hz9l",
+			"typeName": "shape"
+		},
+		{
+			"x": 1292.0783276717927,
+			"y": -680.8664386970955,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:nKu3WssCiJxuJPZ46xesR",
+			"type": "arrow",
+			"props": {
+				"kind": "arc",
+				"elbowMidPoint": 0.5,
+				"dash": "draw",
+				"size": "m",
+				"fill": "semi",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 66.72471390921157,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": -581.4380147561064,
+					"y": 308.59496211016653
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				},
+				"labelPosition": 0.5,
+				"font": "draw",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a1tv8ti8",
+			"typeName": "shape"
+		},
+		{
+			"x": -346.3477459072779,
+			"y": 908.1729563571139,
+			"z": 0.531441,
+			"meta": {},
+			"id": "camera:page:page",
+			"typeName": "camera"
+		},
+		{
+			"x": 498.99093219917035,
+			"y": -368.0295761528729,
+			"rotation": 1.9741153156616065e-15,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:MMLx6mc6CXkfLsndHyj8D",
+			"type": "frame",
+			"props": {
+				"w": 531.6261137965517,
+				"h": 146.71896034461878,
+				"name": "How to Study ?",
+				"color": "black"
+			},
+			"parentId": "page:page",
+			"index": "a4fWyJwV",
+			"typeName": "shape"
+		},
+		{
+			"x": 656.556023232507,
+			"y": 65.50813761182195,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:C5Lc-l-oJLr1I4H3I_D6l",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 559.3624877929688,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1.0929217564198987,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Play Smart Game !!! Ask t0 your friends and "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "bhaiyaaas for help"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:J068-XWNMzPoJ8onxpG_O",
+			"index": "a7WeJEcV",
+			"typeName": "shape"
+		},
+		{
+			"editingShapeId": null,
+			"croppingShapeId": null,
+			"selectedShapeIds": [
+				"shape:nKu3WssCiJxuJPZ46xesR"
+			],
+			"hoveredShapeId": "shape:nKu3WssCiJxuJPZ46xesR",
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:page",
+			"pageId": "page:page",
+			"typeName": "instance_page_state"
+		},
+		{
+			"x": 660.9663385550873,
+			"y": 372.59775284104074,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:u5-8QxYNVQc4D2FohtczQ",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 623.9500122070312,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Complete the task and do fuckin things everyday "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "every moment"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:J068-XWNMzPoJ8onxpG_O",
+			"index": "a9krDs3V",
+			"typeName": "shape"
+		},
+		{
+			"x": 6.20001220703125,
+			"y": 7.000011444091797,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:BYMGxd9iYq6BnVpVJ3iOS",
+			"type": "text",
+			"props": {
+				"color": "light-blue",
+				"size": "m",
+				"w": 488.6125183105469,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Commitment : "
+								}
+							]
+						},
+						{
+							"type": "bulletList",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "9-5 code and stop that fuckin code"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						}
+					]
+				}
+			},
+			"parentId": "shape:MMLx6mc6CXkfLsndHyj8D",
+			"index": "a1a5nCwV",
+			"typeName": "shape"
+		},
+		{
+			"x": 627.5665071824619,
+			"y": 298.1738628585016,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:PlxoRB0OVyms5RCe4Ug_H",
+			"type": "geo",
+			"props": {
+				"w": 679.6615470146852,
+				"h": 231.82250087865464,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "light-blue",
+				"labelColor": "black",
+				"fill": "semi",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "shape:J068-XWNMzPoJ8onxpG_O",
+			"index": "a6vqOgtV",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "binding:sASBhcGZzx32LLbANAPGu",
+			"type": "arrow",
+			"fromId": "shape:nKu3WssCiJxuJPZ46xesR",
+			"toId": "shape:AH2WiV9r93qT2BYrN0JHQ",
+			"props": {
+				"isPrecise": false,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.5,
+					"y": 0.5000000000000006
+				},
+				"snap": "center",
+				"terminal": "start"
+			},
+			"typeName": "binding"
+		},
+		{
+			"x": 66.38422098193337,
+			"y": 310.87887526742173,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:A4aTNcTjHc4b-vwx9dxST",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 499.38751220703125,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Do fuckin things like you're the beast of"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "that things ......Do fuckin code and be a"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "fuckiln beast"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:J068-XWNMzPoJ8onxpG_O",
+			"index": "a4hWBG2V",
+			"typeName": "shape"
+		},
+		{
+			"x": 1191.6756799208333,
+			"y": -743.8059810803364,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:n2VnACIghTxkmUu4zQc2s",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 266.0753396654127,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 1.1231052218258133,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Starting JavaScript"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "a2cxJIzG",
+			"typeName": "shape"
+		},
+		{
+			"x": 656.1017153635121,
+			"y": 322.92150675448664,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:EzS64I7wpnp--pktqCtzy",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 293.5,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Do before you think !!!!!!"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:J068-XWNMzPoJ8onxpG_O",
+			"index": "a8bqZeKV",
+			"typeName": "shape"
+		},
+		{
+			"x": 45.047351737356166,
+			"y": 30.804757890551514,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:TUaTqfD2GLbgCpfn_ENPp",
+			"type": "geo",
+			"props": {
+				"w": 546.5600353072714,
+				"h": 230.27612675079905,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "light-blue",
+				"labelColor": "black",
+				"fill": "semi",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "shape:J068-XWNMzPoJ8onxpG_O",
+			"index": "a1h0GzPl",
+			"typeName": "shape"
+		},
+		{
+			"x": 1124.8024048114885,
+			"y": -743.2565631850031,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:uMCXcvskJaqRdGM-gOK2T",
+			"type": "geo",
+			"props": {
+				"w": 50.800033569336,
+				"h": 43.438768426404025,
+				"geo": "heart",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "light-blue",
+				"labelColor": "black",
+				"fill": "semi",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "a37Mk7zl",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "page:page",
+			"name": "Page 1",
+			"index": "a1",
+			"typeName": "page"
+		},
+		{
+			"gridSize": 10,
+			"name": "",
+			"meta": {},
+			"id": "document:document",
+			"typeName": "document"
+		},
+		{
+			"followingUserId": null,
+			"opacityForNextShape": 1,
+			"stylesForNextShape": {
+				"tldraw:geo": "rectangle",
+				"tldraw:fill": "semi",
+				"tldraw:color": "black",
+				"tldraw:size": "m"
+			},
+			"brush": null,
+			"scribbles": [],
+			"cursor": {
+				"type": "default",
+				"rotation": 0
+			},
+			"isFocusMode": false,
+			"exportBackground": true,
+			"isDebugMode": false,
+			"isToolLocked": false,
+			"screenBounds": {
+				"x": 0,
+				"y": 0,
+				"w": 1309.5999755859375,
+				"h": 750.4000244140625
+			},
+			"insets": [
+				false,
+				false,
+				true,
+				false
+			],
+			"zoomBrush": null,
+			"isGridMode": false,
+			"isPenMode": false,
+			"chatMessage": "",
+			"isChatting": false,
+			"highlightedUserIds": [],
+			"isFocused": true,
+			"devicePixelRatio": 1.25,
+			"isCoarsePointer": false,
+			"isHoveringCanvas": true,
+			"openMenus": [],
+			"isChangingStyle": false,
+			"isReadonly": false,
+			"meta": {},
+			"duplicateProps": null,
+			"id": "instance:instance",
+			"currentPageId": "page:page",
+			"typeName": "instance"
+		},
+		{
+			"x": 40.79341014213037,
+			"y": 289.44534756718286,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:Bbhhgid7PRfMOvlYAVj1d",
+			"type": "geo",
+			"props": {
+				"w": 547.567839139246,
+				"h": 240.85458216434176,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "light-blue",
+				"labelColor": "black",
+				"fill": "semi",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "shape:J068-XWNMzPoJ8onxpG_O",
+			"index": "a31wZGzl",
+			"typeName": "shape"
+		},
+		{
+			"x": 627.8764541677135,
+			"y": 29.02131337472605,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:yEeN_mePTmjFSdOOVXi26",
+			"type": "geo",
+			"props": {
+				"w": 679.6615470146852,
+				"h": 231.82250087865464,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "light-blue",
+				"labelColor": "black",
+				"fill": "semi",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "shape:J068-XWNMzPoJ8onxpG_O",
+			"index": "a5uhU6fl",
+			"typeName": "shape"
+		}
+	]
+}

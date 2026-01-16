@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .box{
+        display: flex;
+        background-color: lightcoral;
+        flex-direction: column;
+        padding: 2.2rem;
+        border-radius: 1rem;
+        align-items: center;
+        justify-content: center;
+        h1{
+            font-size: 3.6rem;
+        }
+        .buttons{
+            display: flex;
+            gap:1rem;
+            button{
+                border-radius: 0.36rem;
+                padding: 0.3rem 1rem;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                transition: all 0.4s linear;
+                &:active{
+                    scale: 0.65;
+                }
+            }
+            .start{
+                background-color: lightgreen;
+            }
+            .stop{
+                background-color: orangered;
+            }
+            .reset{
+                background-color: aquamarine;
+            }
+        }
+    }
+}

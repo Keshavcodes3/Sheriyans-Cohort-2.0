@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    grid-template-rows: 200px 150px 150px 200px;
+    grid-template-areas: "Div1 Div1-1 Div1-2 Div2"
+                         "Div1 MiddleDiv MiddleDiv Div2"
+                         "Div2-1 MiddleDiv MiddleDiv Div2-3"
+                         "Div2-1 Div3-1 Div3-2 Div3-2"
+    ;
+    padding: 50px;
+    gap: 15px;
+}
+
+h1{
+    color: white;
+}
+
+.Div1{
+    grid-area: Div1;
+    border: 2px solid white;
+    border-radius: 21px;
+    background-color: red;
+     position: relative;
+    overflow: hidden;
+}
+.Div1:hover .bottom{
+    bottom: 0%;
+}
+
+.Div1>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.Div1-1{
+    grid-area: Div1-1;
+    border-radius: 21px;
+     position: relative;
+    border: 2px solid white;
+    background-color: aqua;
+    overflow: hidden;
+}
+.Div1-1:hover .bottom{
+    bottom: 0%;
+}
+
+.Div1-1>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.Div1-2{
+    grid-area: Div1-2;
+    border-radius: 21px;
+    background-color: red;
+    border: 2px solid white;
+     position: relative;
+    overflow: hidden;
+}
+.Div1-2:hover .bottom{
+    bottom: 0%;
+}
+
+.Div1-2>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.Div2{
+    grid-area: Div2;
+     position: relative;
+    border-radius: 21px;
+    border: 2px solid white;
+    background-color: blueviolet;
+    overflow: hidden;
+}
+.Div2:hover .bottom{
+    bottom: 0%;
+}
+
+
+.Div2>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.MiddleDiv{
+    grid-area: MiddleDiv;
+     position: relative;
+    border-radius: 21px;
+    border: 3px solid white;
+    /* background-color: turquoise; */
+   overflow: hidden;
+    box-shadow: 2px 2px 5px skyblue;
+}
+.MiddleDiv:hover .bottom{
+    bottom: 0%;
+}
+
+.MiddleDiv>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.Div2-3{
+    grid-area: Div2-3;
+    border-radius: 21px;
+     position: relative;
+    border: 2px solid white;
+    background-color: violet;
+    overflow: hidden;
+}
+.Div2-3:hover .bottom{
+    bottom: 0%;
+}
+
+.Div2-3>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.Div2-1{
+    grid-area: Div2-1;
+    border-radius: 21px;
+     position: relative;
+    border: 2px solid white;
+    background-color: tomato;
+    overflow: hidden;
+}
+.Div2-1:hover .bottom{
+    bottom: 0%;
+}
+
+.Div2-1>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.Div3-1{
+    grid-area: Div3-1;
+    border-radius: 21px;
+     position: relative;
+    background-color: slateblue;
+    border: 2px solid white;
+    overflow: hidden;
+}
+.Div3-1:hover .bottom{
+    bottom: 0%;
+}
+
+.Div3-1>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.Div3-2{
+    grid-area: Div3-2;
+    border-radius: 21px;
+    background-color:royalblue;
+    border: 2px solid white;
+    overflow: hidden;
+     position: relative;
+}
+.Div3-2:hover .bottom{
+    bottom: 0%;
+}
+
+.Div3-2>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.bottom{
+    height:40%;
+    width: 100%;
+    position: absolute;
+    background:linear-gradient(transparent,black);
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    bottom: -40%;
+    transition: all ease 0.5s;
+    
+}
+
+.bottom h4{
+    color: white;
+    font-size: 23px;
+}

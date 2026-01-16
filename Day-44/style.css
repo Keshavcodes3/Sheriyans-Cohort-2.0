@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    color: skyblue;
+    width: 100%;
+    background-color: black;
+}
+
+button{
+    padding: 12px 22px;
+    background-color: lightseagreen;
+    border: none;
+    outline: none;
+    border-radius: 13px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    &:active{
+        scale: 0.95;
+    }
+}

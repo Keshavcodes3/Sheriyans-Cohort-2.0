@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.parent{
+    background-color: aquamarine;
+    margin: 20px;
+    padding: 40px;
+    width: 60%;
+}
+
+h2{
+    font-size: 3rem;
+}
+h4{
+    font-size: 4rem;
+}
+
+h6{
+    font-size: 3rem ;
+}

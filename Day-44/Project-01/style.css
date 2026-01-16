@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    color: skyblue;
+    width: 100%;
+    overflow:hidden;
+    background-color: black;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button{
+    z-index: 100;
+    /* position: relative; */
+    padding: 10px 20px;
+    font-weight: 600;
+    background-color: crimson;
+    color: honeydew;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    transition: all 0.9s linear;
+    &:active{
+        scale: 0.36;
+    }
+}

@@ -1,0 +1,14 @@
+@mixin btnPrimary($radius-sm,$transition,$primary) {
+  padding: 0.7rem 1.6rem;
+  background: linear-gradient(135deg, $primary, darken($primary, 10%));
+  color: white;
+  border-radius: $radius-sm;
+  font-weight: 600;
+  transition: $transition;
+  cursor: pointer;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 30px rgba($primary, 0.35);
+  }
+}

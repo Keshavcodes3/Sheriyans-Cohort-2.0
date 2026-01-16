@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.box{
+    text-align: center;
+}
+
+.box h1{
+    font-size: 45px;
+}
+.box .buttons{
+    display: flex;
+    gap: 0.95rem;
+}
+
+button{
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
+    &:active{
+        scale: 0.69;
+    }
+}
+
+.start{
+    background-color: greenyellow;
+}
+.stop{
+    background-color: red;
+}
+.reset{
+    background-color: blue;
+}

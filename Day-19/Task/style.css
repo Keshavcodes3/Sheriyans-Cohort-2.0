@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 60px 180px 1fr;
+    grid-template-areas:"header header"
+                        "Div1 Div2"
+                        "section section" 
+
+    ;
+    gap: 20px;
+}
+
+header{
+    background-color: orange;
+    grid-area: header;
+}
+.Div1{
+    background-color: green;
+    grid-area: Div1;
+}
+.Div2{
+    grid-area: Div2;
+    background-color: darkcyan;
+}
+section{
+    grid-area: section;
+    background-color: yellow;
+}

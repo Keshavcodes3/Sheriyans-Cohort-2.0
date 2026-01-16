@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    section{
+        height: 100%;
+        flex-grow: 1;
+        background-color: crimson;
+        transition: all 0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        cursor: pointer;
+        &:hover{
+            flex-grow: 2;
+        }
+    }
+    section:nth-child(1){
+        background-color: aqua;
+    }
+    section:nth-child(2){
+        background-color:tomato;
+    }
+    section:nth-child(3){
+        background-color:springgreen;
+    }
+    section:nth-child(4){
+        background-color:violet;
+    }
+    section:nth-child(5){
+        background-color:palegreen;
+    }
+    
+}

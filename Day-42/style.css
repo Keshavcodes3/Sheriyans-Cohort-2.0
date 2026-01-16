@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body,html{
+  height: 100%;
+  width: 100%;
+  background-color: #111;
+  color: #fff;
+}
+
+h2{
+  font-size: 5rem;
+}
+
+button{
+  cursor: pointer;
+  padding: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 2rem;
+  background-color: red;
+}
