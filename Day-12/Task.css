@@ -1,0 +1,39 @@
+@font-face {
+    font-family: f1;
+    src: url(../Day-11//Lucy\ Said\ Ok\ Personal\ Use.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+   
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background: url(./tanjiro-kamado-3840x2160-9324.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 40px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+h1 {
+    font-size: 70px;
+    font-family: f1;
+    color: blue;
+}

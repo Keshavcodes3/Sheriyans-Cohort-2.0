@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Love;
+    src: url(../Day-11/Lucy\ Said\ Ok\ Personal\ Use.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+button {
+    margin: 100px;
+    padding: 10px 30px;
+    background-color: lightgreen;
+    font-weight: 700;
+    font-size: 55px;
+    font-family: Georgia,
+        'Times New Roman',
+        Times,
+        serif;
+    border: 5px solid aquamarine;
+    border-radius: 50px;
+}
