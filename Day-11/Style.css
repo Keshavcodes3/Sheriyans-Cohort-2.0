@@ -1,0 +1,44 @@
+@font-face {
+    font-family: Lucy;
+    src: url(./Lucy\ Said\ Ok\ Personal\ Use.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    font-family: Lucy;
+    font-weight: 800;
+    font-size: 100px;
+    font-style: italic;
+    text-align: center;
+    color: palevioletred;
+}
+
+#box2 {
+    height: 200px;
+    width: 200px;
+}
+
+#box1 {
+    margin-bottom: 20px;
+    height: 200px;
+    width: 200px;
+    background: radial-gradient(yellow, red, black);
+}
+
+#box3 {
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    background: conic-gradient(violet, indigo, blue, green, yellow, orange, red);
+}
